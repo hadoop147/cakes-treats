@@ -2,9 +2,71 @@
     Designed & coded by Rory Cleary, Kasia Casserly & Geneci Da Cruz.
     29/09/19-->
 
-body {background-color: yellow;}
-	p {color: red;
-		border-width: 2px;
-		font: Helvetica:}
-	#p1 {color: blue;}
+body{
+	margin: 25px;
+	border: 1px solid black;
+}
+.header{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+.nav{
+	height: 500px;
+	width: 15%;
+	background-color: white;
+	color: red;
+	float: left;
+	border-right: .5px solid black;	
+}
+.nav ul{
+	list-style-type: none;
+	font-size: 1.5em;
+}
+.nav li{
+	padding: 15px;
+	margin-right: 30px;
+	border-bottom: 1px solid black;
+}
+a{
+	color: red;
+	text-decoration: none;	
+}
+.content{
+	background-color: white;
+	color: black;
+	height: 500px;
+	width: 75%;
+	float: left;
+	padding-left: 5%;
+	overflow: auto;	
+}
+img{
+	position: relative;
+	left: 50px;
+	padding-top: 10px;
+}
+.footer{
+	background-color: blue;
+	color: yellow;
+	text-align: center;
+	padding: 5px;
+	}	
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+#belowimg{
+	padding: 25px;
+	padding-left: 33%;
+}
+#blueline{
+		text-decoration: underline;
+		color: blue;
+}	
+	
+	
+	
 	
