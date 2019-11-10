@@ -3,19 +3,99 @@
     29/09/19-->
 
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        
-        <title>Contact</title>
-        
-        <!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-    </head>
-    <body>
-  
- 
-  
-    </body>
+<html lang="en"> 
+
+	<head>
+		
+		<meta charset="UTF-8">
+		
+		<title>Contact</title>
+		<link rel="stylesheet" href="externalBootstrap.css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
+		<script src="https://kit.fontawesome.com/ee9062f579.js" crossorigin="anonymous"></script>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		
+	</head>
+
+	<body>
+			
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="top col-sm-12">
+					
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="logo col-sm-12">
+					<img src="logo.jpg" alt="logo" width="300px" height="300px" />
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="nav col-sm-2">
+					<ul>
+						<li><a href="indexBootstrap.html"><i class="fas fa-home"></i></a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a class="active" href="contact.html">Contact</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Gallery</a></li>
+					</ul>
+				</div>
+				<div class="content col-sm-10">
+					<h2>You can order a product or ask us a question here!</h2>
+			
+					<h4>We will get back in touch with you ASAP.</h4>
+					
+				<form>
+		
+					<form method="post" action="mailto:x19139306@student.ncirl.ie">
+		
+						<label>First name:</label><br/>
+						<input type="text" name="fname"  size="48" maxlength="5" /><br/>
+			
+						<label>Last name:</label><br/>
+						<input type="text" name="lname"  size="48" maxlength="8" /><br/>
+			
+						<label>Email:</label><br/>
+						<input type="text" name="email"  size="48" maxlength="20" /><br/>
+		
+						<label>Phone No:</label><br/>
+						<input type="text" name="phone" size="48" maxlength="10" /><br/>
+			
+						<label>Orders or questions?</label><br/>
+						<textarea rows="15" cols="50"></textarea><br/>
+			
+						<!--<input type="reset" /><br/>
+						<input type="submit" value="Click here to send" ><br/>-->
+				
+					</form><br/>
+					<button type="button" class="btn btn-danger">Reset</button>
+					<button type="button" class="btn btn-primary">Submit</button><br/>
+					
+				</div>
+				
+				</div>
+			
+			<div class="row">
+				<div class="footer col-sm-12">
+				Copyright &copy; GRK Design<a href="#"><i class="fab fa-instagram" style="float:right"></i></a>
+				</div>
+
+			</div>
+		</div>
+			
+	</body>
+
 </html>
