@@ -1,0 +1,142 @@
+body{
+	background-color: white;
+	}
+	
+.container-fluid {
+	width: 100%;
+	border: 1px solid gray;
+	}
+
+.top {
+	background-color: #ffe6e9;
+	/*height: 50px;*/
+	text-align: center;
+	}
+	
+/*.logo {
+	text-align: center;
+	border-bottom: 20px solid #ffe6e9;
+	border-right: 20px solid #ffe6e9;
+	border-left: 20px solid #ffe6e9;
+	}
+*/
+.footer {
+	padding: 1em;
+	color: white;
+	background-color: #555;
+	text-align: center;
+	}	
+
+.nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #f1f1f1;
+	border-right: 3px solid #ffe6e9;
+	border-left: 3px solid #ffe6e9;
+	border-bottom: 3px solid #ffe6e9;
+	}
+	
+.nav li {
+	border-bottom: 3px solid #ffe6e9;
+	text-align: center;
+	}   
+
+.nav ul a {
+	display: block;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-style: bold;
+	color: gray;
+	padding-left: 3em;
+	padding: 1em;
+	}
+
+.nav li a.active {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.content {
+	color: gray;
+	padding: 1em;
+	font-size: 1.25em; 
+	}
+.display-2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: gray;
+}
+.pics{
+	padding: 2em;
+	margin: 1em;
+	}
+
+.top {
+	padding: 7px;
+	color: white;
+	font-size: 1.5em;
+}
+.infobox {
+	border-right: 3px solid #ffe6e9;
+	border-left: 3px solid #ffe6e9;
+	border-bottom: 3px solid #ffe6e9;
+	padding: 1em;
+	font-size: 3em;
+	background-color: #f1f1f1; 
+	color: gray;
+}
+		
+/*for 900px or less*/
+
+@media screen and (max-width: 900px) {
+	body {
+	background-color: #;
+	}
+	#pagewrap {
+	width: 94%;
+	}
+	#content {
+	width: 65%;
+	}
+	#sidebar {
+	width: 30%;
+	}
+}
+		
+/*for 720px or less*/
+
+@media screen and (max-width: 720px) {
+	body {
+	background-color: #;
+	}
+	#content {
+	width: auto;
+	float: none;
+	}
+	#sidebar {
+	width: auto;
+	float: none;
+	}
+}
+*/		
+/*for 500px or less*/
+
+@media screen and (max-width: 500px) {
+	body {
+	background-color: #;
+	}
+	#header {
+	height:auto;
+	}
+	#h1 {
+	font-size: 24px;
+	}
+	#sidebar {
+	display: none;
+	}
+}
