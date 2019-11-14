@@ -11,7 +11,7 @@
 		<meta charset="UTF-8">
 		
 		<title>Contact</title>
-		<link rel="stylesheet" href="externalBootstrap.css">
+		<link rel="stylesheet" href="externalBootstrap1.css">
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -33,25 +33,19 @@
 
 			<div class="row">
 				<div class="top col-sm-12">
-					
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="logo col-sm-12">
-					<img src="logo.jpg" alt="logo" width="300px" height="300px" />
+					<img src="logo.jpg" alt="logo" style="width:300px; height:300px;" />
 				</div>
 			</div>
 			
 			<div class="row">
 				<div class="nav col-sm-2">
 					<ul>
-						<li><a href="indexBootstrap.html"><i class="fas fa-home"></i></a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="products.html">Products</a></li>
+						<li><a href="indexBootstrap1.html"><i class="fas fa-home"></i></a></li><!--home icon is from font-awesome account-->
+						<li><a href="#">About</a></li>
+						<li><a href="#">Products</a></li>
 						<li><a class="active" href="contact.html">Contact</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Gallery</a></li>
 					</ul>
 				</div>
 				<div class="content col-sm-10">
@@ -61,7 +55,7 @@
 					
 				<form>
 		
-					<form method="post" action="mailto:x19139306@student.ncirl.ie">
+					<form method="post" action="mailto:hadoop147@icloud.com">
 		
 						<label>First name:</label><br/>
 						<input type="text" name="fname"  size="48" maxlength="5" /><br/>
@@ -78,22 +72,30 @@
 						<label>Orders or questions?</label><br/>
 						<textarea rows="15" cols="50"></textarea><br/>
 			
-						<!--<input type="reset" /><br/>
-						<input type="submit" value="Click here to send" ><br/>-->
 				
 					</form><br/>
 					<button type="button" class="btn btn-danger">Reset</button>
-					<button type="button" class="btn btn-primary">Submit</button><br/>
+					<button type="button" onclick="aFunction()" class="btn btn-primary">Submit</button><br/><!--button code taken from W3Schools.com/bootstrap-->
+					
+					<script> 
+		
+						function aFunction()
+						{
+						alert("Thank you. We will be in contact with you shortly.");
+						}
+			
+					</script>
 					
 				</div>
 				
 				</div>
 			
 			<div class="row">
-				<div class="footer col-sm-12">
-				Copyright &copy; GRK Design<a href="#"><i class="fab fa-instagram" style="float:right"></i></a>
+				<div class="footer col-sm-12">Copyright &copy; GRK Design
+					<div class="instagram">
+					<a href="#"><i class="fab fa-instagram" style="color: white;"></i></a><!--used inline style as color won't change in external style sheet-->
+					</div>
 				</div>
-
 			</div>
 		</div>
 			
