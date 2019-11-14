@@ -11,6 +11,9 @@ body{
 	background-color: #ffe6e9;
 	/*height: 50px;*/
 	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	/*padding: 7px;*/
 	}
 	
 /*.logo {
@@ -76,11 +79,6 @@ body{
 	margin: 1em;
 	}
 
-.top {
-	padding: 7px;
-	color: white;
-	font-size: 1.5em;
-}
 .infobox {
 	border-right: 3px solid #ffe6e9;
 	border-left: 3px solid #ffe6e9;
@@ -140,3 +138,4 @@ body{
 	display: none;
 	}
 }
+
