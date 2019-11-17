@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+	<head>
+		
+		<meta charset="UTF-8">
+		
+		<title>Contact</title>
+		<link rel="stylesheet" href="redesign.css">
+		
+		<script src="https://kit.fontawesome.com/ee9062f579.js" crossorigin="anonymous"></script>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		
+	</head>
+
+	<body>
+			
+		<div class="pagewrap">
+
+				<div class="top">
+					<img src="logo.jpg" alt="logo" id="logo" />
+				</div>
+				
+				<div class="info">
+					<h2>You can order a product or ask us a question here!</h2>
+			
+					<h4>We will get back in touch with you ASAP.</h4>
+					
+					<h4>Gift Vouchers are Available Upon request</h4>
+				</div>
+				
+				<div class="form">	
+				<form>
+		
+					<form method="post" action="mailto:hadoop147@icloud.com">
+		
+						<label>First name:</label><br/>
+						<input type="text" name="fname"  size="48" maxlength="5" /><br/>
+			
+						<label>Last name:</label><br/>
+						<input type="text" name="lname"  size="48" maxlength="8" /><br/>
+			
+						<label>Email:</label><br/>
+						<input type="text" name="email"  size="48" maxlength="40" /><br/>
+		
+						<label>Phone No:</label><br/>
+						<input type="text" name="phone" size="48" maxlength="10" /><br/>
+			
+						<label>Orders or questions?</label><br/>
+						<textarea rows="20" cols="60"></textarea><br/>
+			
+				
+					</form><br/>
+					
+					<div class="button">
+						<button class="button button1">Reset</button>
+						<button class="button button2" onclick="aFunction()">Submit</button><br/>
+					</div>
+				
+					<script> 
+		
+						function aFunction()
+						{
+							alert("Thank you. We will be in contact with you shortly.");
+						}
+			
+					</script>
+					
+				</div>
+			
+				<div class="nav">
+					<ul>
+						<li><a href="index.html"><i class="fas fa-home"></i></a></li><!--home icon is from font-awesome account-->
+						<li><a href="#">About</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a class="active" href="contact.html">Contact</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+					</ul>
+				</div>
+			
+				<div class="footer">&copy; GRK Design
+					<div class="instagram">
+						<a href="#"><i class="fab fa-instagram" style="color:white;"></i></a>
+						<a href="#"><i class="fab fa-facebook-f" style="color:white;"></i></a>
+						<a href="#"><i class="fab fa-twitter" style="color:white;"></i></a><!--used inline style as color won't change in external style sheet-->
+					</div>
+				</div>
+		</div>
+	</body>
+
+</html>
