@@ -2,12 +2,8 @@
 
 body{
 	background-color:#ffe6e9;
-	
-	
 }
 
-/*background-image: url("images/background3.jpg");
-background-image: repeat;*/
 .pagewrap{
 	border-left:2px solid white;
 	border-right:2px solid white;
@@ -21,13 +17,11 @@ background-image: repeat;*/
 	width:270px;
 	float:left;
 	background-color:#ffe6e9;
-	
 }
 
 #logo{
-	height:210px;
+	height:250px;
 	width:270px;
-	
 }
 
 .info{
@@ -52,26 +46,17 @@ background-image: repeat;*/
 	margin-bottom:20px;
 	margin-top:20px;
 	margin-right:547px;
-	
 }
 
 .content{
 	float:right;
-	width:1193px;
+	width:1200px;
 	border-bottom:2px solid white;
 	color:gray;
 	font-size:1.25em;
-	border-left:2px solid white;
+	border-left:28px solid white;
 	background-color:white;
 	font-family:"Comic Sans MS", cursive, sans-serif;
-	padding-left: 5px;
-	padding-bottom: 25px;
-	margin-bottom: 15px;
-	
-}
-
-.nav{
-	float:left;
 }
 
 .nav ul{
@@ -130,45 +115,18 @@ background-image: repeat;*/
 .photobox{
 	float:right;
 	width:80%;
-	border-left:2px solid white;
+	border-left:28px solid white;
 	display:block;
-	text-align: center;	
-}
-.photobox: hover{
-	border: 15px solid #ddd;
-	border-radius: 20px;
-	padding: 20px 10px 20px 10px;
-	float:right;
-	display:block;
-	margin-left: auto;	
 }
 
-.gallery1{
-	display:block;
-	text-align: center;
-	margin-left: 50px;
-	margin-bottom: 20px;
-	
-}
-
-
-h2{
-	color:gray;
-	font-size:1.25em;
-	font-family:"Comic Sans MS", cursive, sans-serif;
-	text-decoration: none;
-	
-}
-
-
-#rounded{
-	border-radius:5px;
+.photobox img{
+	border-radius:45px;
 	padding:20px;
+	max-width:85%;
+	height:auto;
 }
 
 #display{
-	font-family:"Comic Sans MS", cursive, sans-serif;
-	color:gray;
 	font-size:4em;
 }
 
@@ -198,11 +156,6 @@ h2{
 	background-color:red
 }
 
-img{
-	max-width:100%;
-	height:auto;
-}
-
 /*code for responsive web design*/
 /*for 900px or less*/
 
@@ -218,16 +171,16 @@ img{
 		width:auto;
 		float:none;
 	}
+	.nav{
+		width:auto;
+		float:none;
+	}
 	.content{
 		width:auto;
 		float:none;
 	}
 	.photobox{
-		width:auto;
-		float:none;
-	}
-	.nav{
-		width:auto;
+		max-width:auto;
 		float:none;
 	}
 	.info{
@@ -235,7 +188,8 @@ img{
 		float:none;
 	}
 	.form{
-		width:auto;
+		max-width:80%;
+		height:auto;
 		float:none;
 	}
 }
@@ -254,6 +208,10 @@ img{
 		width:auto;
 		float:none;
 	}
+	.nav{
+		width:auto;
+		float:none;
+	}
 	.content{
 		width:auto;
 		float:none;
@@ -262,16 +220,13 @@ img{
 		width:auto;
 		float:none;
 	}
-	.nav{
-		width:auto;
-		float:none;
-	}
 	.info{
 		width:auto;
 		float:none;
 	}
 	.form{
-		width:auto;
+		max-width:80%;
+		height:auto;
 		float:none;
 	}
 }
@@ -290,6 +245,10 @@ img{
 		width:auto;
 		float:none;
 	}
+	.nav{
+		width:auto;
+		float:none;
+	}
 	.content{
 		width:auto;
 		float:none;
@@ -298,16 +257,13 @@ img{
 		width:auto;
 		float:none;
 	}
-	.nav{
-		width:auto;
-		float:none;
-	}
 	.info{
 		width:auto;
 		float:none;
 	}
 	.form{
-		width:auto;
+		max-width:80%;
+		height:auto;
 		float:none;
 	}
 }
