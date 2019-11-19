@@ -1,7 +1,3 @@
-<!--Cakes & Treats website for NCI website module.
-    Designed & coded by Rory Cleary, Kasia Casserly & Geneci Da Cruz.
-    29/09/19-->
-
 <!DOCTYPE html>
 <html lang="en"> 
 
@@ -12,79 +8,70 @@
 		
 		<title>Products</title>
 		
-		<link rel="stylesheet" href="externalBootstrap1.css">
+		<link rel="stylesheet" href="redesign.css">
 		
-		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-		
-		<script src="https://kit.fontawesome.com/ee9062f579.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/ee9062f579.js"crossorigin="anonymous" ></script>
 		
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
-		
 	</head>
 
 	<body>
+	
+		<div class="pagewrap">
 			
-			<div class="container-fluid">
-			
-			<div class="row">
-				<div class="top col-sm-12">
-					<img src="logo.jpg" alt="logo" width="300px" height="300px" />
-					<i class="fas fa-birthday-cake" style="float:left"></i><i class="fas fa-gift" style="float:right"></i>
-				</div>
-			</div>			
+			<div class="top">
+				<img src="logo.jpg" alt="logo" id="logo" />
+			</div>
 			   
-			<div class="row">
-				<div class="nav col-sm-2">
-					<ul>
-						<li><a href="indexBootstrap1.html"><i class="fas fa-home"></i></a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a class="active" href="products.html">Products</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-					</ul>
-				</div>
-				<div class="content col-sm-8">
-					<p><h1 class="display-2"><i>Cakes & Treats Products.</i></h1> <br/>Our designs can cover all occasions from <strong><i>Birthdays</i></strong> to <strong><i>Weddings</i></strong> and everything in between.
-					Our products are made with quality  and fresh material at your choice.</p>
-					<p>On our website we have a huge selection of products to choose from, and would be delighted to design a custom <strong><i>Cake</i></strong> or selection of <strong><i>Treats</i></strong> to suit your needs.
-					</p>
-					<p>Contact us to make your <strong><i>Cake Dreams</i></strong> come true!</p>
-					<p>You can choose from the selection: <strong><i>Birthday Cakes,  </i> </strong><strong><i>Wedding Cakes,  </i></strong> <strong><i>Thematics and Other Cake. </i></strong>!</p>
-					
-					<!--<div class="pics">
-						<img src="images/cake002.jpg" class="rounded" alt="Cakes" style="max-width:100%;height:auto;" />
-					</div>
-					<div class="pics">
-						<img src="images/cake004.jpg" class="rounded" alt="Unicorns" style="max-width:100%;height:auto;" />
-					</div>-->
-					<div class="pics">
-						<img src="images1/birt2.jpeg" class="rounded" alt="Cakes" style="max-width:100%;height:auto;" />
-						<img src="images1/cake3.jpg" class="rounded" alt="Birthday cakes" style="max-width:100%;height:auto;" />
-					</div>
-					<div class="pics">
-						<img src="images1/harry p.jpg" class="rounded" alt="Cakes" style="max-width:100%;height:auto;" />
-						<img src="images1/boyshoe.jpg" class="rounded" alt="Birthday cakes" style="max-width:100%;height:auto;" />
-					</div>
-				</div>
-				<div class="infobox col-sm-2">
-					<p>Gift Vouchers Available Upon Request</p>
-				</div>
-			</div>
+			<div class="content">
+				<p><h1 class="display-2"><i>Cakes & Treats Products.</i></h1> <br/>
+				Our quality products are freshily made to satisfy your taste.</p>
+				<p>On our website we have a huge selection of products to choose from, and would be delighted to design a custom <strong><i>Cake</i></strong> or selection of <strong><i>Treats</i></strong> to suit your needs.
+				</p>
+				<p>Contact us to make your <strong><i>Cakes and Treats Dreams</i></strong> come true!</p>
+				<p>You can choose from the selection:</p>
+			</div>	
 				
-			<div class="row">
-				<div class="footer col-sm-12">Copyright &copy; GRK Design<a href="#"><i class="fab fa-instagram" style="float:right"></i></a>
-				</div>
-			</div>
-		</div>
+				<div class="nav">
+			  <ul>
+				<li><a class="active" href="index.html"><i class="fas fa-home"></i></a></li><!--font-awesome icon-->
+					<!--<li><a href="index.html">Home</a></li>-->
+					<li><a href="about.html">About</a></li>
+					<li><a class="active" href="products.html">Products</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+			  </ul>
+			</div> 
+				
+			<div class="photobox">
+				<h2><a href="gallery.html" style="text-decoration:none;">Birthday Cakes </a></h2>
+				<img src="images/ariel.jpg" alt="Cake Ariel" id="rounded" />
+				<h2><a href="gallery.html" style="text-decoration:none;">Wedding Cakes</a></h2>
+				<img src="images/weddc2.jpg" class="rounded" alt="Cakes Cucciolo"/> <!--style="max-width:100%;height:auto;" /-->
+				<h2><a href="gallery.html" style="text-decoration:none;">Thematics Cakes</a></h2>
+				<img src="images/kinder.jpg" alt="Kinder Cakes" id="rounded" /><!--style="width:800px;height:600px;max-width:100%;height:auto;"/-->
+				<h2><a href="gallery.html" style="text-decoration:none;">Other Cakes</a></h2>
+				<img src="images/golfer.jpg" class="rounded" alt="Golfer Cakes" /> <!--style="max-width:100%;height:auto;" /-->				
+				<!--text-decoration set to none is only workig with an inline style-->
+			</div><!--images are only responsive with an inline style-->
 			
+			
+		
+				<div class="footer">&copy; GRK Design
+					<div class="instagram">
+						<a href="#"><i class="fab fa-instagram" style="color:white;"></i></a>
+						<a href="#"><i class="fab fa-facebook-f" style="color:white;"></i></a>
+						<a href="#"><i class="fab fa-twitter" style="color:white;"></i></a><!--used inline style as color won't change in external style sheet-->
+					</div>
+				</div>	
+		</div>
+		
 	</body>
 
 </html>
+
+<!-- test Geneci-->
