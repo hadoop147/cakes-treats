@@ -129,6 +129,7 @@ body{
 .photobox a{
 	text-decoration:none;
 	color:gray;
+	padding-left:180px;
 }
 	
 #display{
