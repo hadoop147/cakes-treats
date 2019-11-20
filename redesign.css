@@ -48,17 +48,6 @@ body{
 	margin-right:547px;
 }
 
-.content{
-	float:right;
-	width:1200px;
-	border-bottom:2px solid white;
-	color:gray;
-	font-size:1.25em;
-	border-left:28px solid white;
-	background-color:white;
-	font-family:"Comic Sans MS", cursive, sans-serif;
-}
-
 .nav ul{
 	list-style-type:none;
 	margin:0;
@@ -98,6 +87,17 @@ body{
   color:white;
 }
 
+.content{
+	float:right;
+	width:1200px;
+	border-bottom:2px solid white;
+	color:gray;
+	font-size:1.25em;
+	border-left:28px solid white;
+	background-color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
 .footer{
 	clear:both;
 	background-color:#4CAF50;
@@ -117,6 +117,7 @@ body{
 	width:80%;
 	border-left:28px solid white;
 	display:block;
+	text-align:center;
 }
 
 .photobox img{
@@ -129,7 +130,6 @@ body{
 .photobox a{
 	text-decoration:none;
 	color:gray;
-	padding-left:180px;
 }
 	
 #display{
@@ -146,7 +146,7 @@ body{
 	color:white;
 }
 
-.button{
+.button{		
 	color:white;
 	text-align:center;
 	display:inline-block;
@@ -165,7 +165,6 @@ body{
 .button2{
 	background-color:red
 }
-
 	
 /*code for responsive web design*/
 /*for 900px or less*/
