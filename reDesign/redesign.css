@@ -180,6 +180,10 @@ body{
 	background-color:red
 }
 
+#blog{
+	color:#4CAF50;
+}
+
 /*code for responsive web design*/
 /*for 900px or less*/
 
@@ -292,4 +296,3 @@ body{
 	}
 }
 }
-#blog{color:#4CAF50;}
