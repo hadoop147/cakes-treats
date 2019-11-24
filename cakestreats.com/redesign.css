@@ -1,0 +1,318 @@
+/*code for page structure*/
+
+body{
+	background-color:#ffe6e9;
+}
+
+.pagewrap{
+	border-left:2px solid white;
+	border-right:2px solid white;
+	border-bottom:2px solid white;
+	margin:20px auto;
+	width:1500px;
+}
+
+.top{
+	height:350px;
+	width:270px;
+	float:left;
+	background-color:#ffe6e9;
+}
+
+#logo{
+	height:250px;
+	width:270px;
+}
+
+.info{
+	float:right;
+	width:1193px;
+	border:2px solid white;
+	color:gray;
+	font-size:1.25em;
+	background-color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	padding-left:30px;
+}
+
+.form{
+	float:right;
+	background-color:white;
+	width:600px;
+	color:gray;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:1.25em;
+	padding:40px;
+	margin-bottom:20px;
+	margin-top:20px;
+	margin-right:547px;
+}
+
+.nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:268px;
+	background-color:white;
+	border-left:2px solid white;
+	border-right:2px solid #ffe6e9;
+}
+
+.nav li{
+	text-align:center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	border-bottom:2px solid #ffe6e9;	
+}
+
+.nav ul a{
+	padding:10px;
+	display:block;
+	text-decoration:none;
+	color:gray;
+	font-size:2em;
+	font-style:bold;
+}
+	
+.nav li:last-child{
+  border-bottom:none;
+}
+
+.nav li a.active{
+  background-color:#4CAF50; 
+  color:white;
+}
+
+.nav li a:hover:not(.active){
+  background-color:#555;
+  color:white;
+}
+
+.content{
+	float:right;
+	width:1200px;
+	border-bottom:2px solid white;
+	color:gray;
+	font-size:1.25em;
+	border-left:28px solid white;
+	background-color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.footer{
+	clear:both;
+	background-color:#4CAF50;
+	color:white;
+	width:100%;
+	height:60px;
+	text-align:center;
+	padding-top:1em;
+	font-size:1.5em;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+/*code for design elements*/
+
+.photobox{
+	float:right;
+	width:80%;
+	border-left:28px solid white;
+	display:block;
+	text-align:center;
+}
+
+.photobox img{
+	border-radius:45px;
+	padding:20px;
+	max-width:85%;
+	height:auto;
+}
+
+.photobox a{
+	text-decoration:none;
+	color:gray;
+}
+	
+#display{
+	font-size:4em;
+}
+
+.instagram{
+	padding-right:10px;
+	font-size:1.25em;
+	float:right;
+}
+
+.instagram a i{
+	color:white;
+}
+
+input[type=text],input[type=email],input[type=tel]{
+	width:50%;
+}
+
+input[type=reset]{
+	background-color:red;
+	color:white;
+	cursor:pointer;
+	margin:15px 2px;
+	border:none;
+	padding:10px 20px;
+	border-radius:10px;
+}
+
+input[type=submit]{
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	border:none;
+	margin:15px 2px;
+	padding:10px 20px;
+	border-radius:10px;
+}
+
+#time{
+	float:right;
+	background-color:#4CAF50;
+	color:white;
+}
+
+#blog{
+	color:#4CAF50;
+}
+
+.photoboxBlog{
+	background-color:white;
+	float:right;
+	width:80%;
+	border-left:28px solid white;
+	display:block;
+	text-align:center;
+	padding-top:1em;
+	font-size:1.5em;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:gray;
+}
+
+.photoboxBlog img{
+	border-radius:45px;
+	padding:20px;
+	max-width:85%;
+	height:auto;
+}
+
+.photoboxBlog a{
+	text-decoration:none;
+	
+}
+
+/*code for responsive web design*/
+/*for 900px or less*/
+
+@media screen and (max-width: 900px){
+	body{
+		background-color:#;
+	}
+	.pagewrap{
+		width:auto;
+		float:none;
+	}
+	.top{
+		width:auto;
+		float:none;
+	}
+	.nav{
+		width:auto;
+		float:none;
+	}
+	.content{
+		width:auto;
+		float:none;
+	}
+	.photobox{
+		max-width:auto;
+		float:none;
+	}
+	.info{
+		width:auto;
+		float:none;
+	}
+	.form{
+		max-width:80%;
+		height:auto;
+		float:none;
+	}
+}
+		
+/*for 720px or less*/
+
+@media screen and (max-width: 720px){
+	body{
+		background-color:#;
+	}
+	.pagewrap{
+		width:auto;
+		float:none;
+	}
+	.top{
+		width:auto;
+		float:none;
+	}
+	.nav{
+		width:auto;
+		float:none;
+	}
+	.content{
+		width:auto;
+		float:none;
+	}
+	.photobox{
+		width:auto;
+		float:none;
+	}
+	.info{
+		width:auto;
+		float:none;
+	}
+	.form{
+		max-width:80%;
+		height:auto;
+		float:none;
+	}
+}
+	
+/*for 500px or less*/
+
+@media screen and (max-width: 500px){
+	body{
+		background-color:#;
+	}
+	.pagewrap{
+		width:auto;
+		float:none;
+	}
+	.top{
+		width:auto;
+		float:none;
+	}
+	.nav{
+		width:auto;
+		float:none;
+	}
+	.content{
+		width:auto;
+		float:none;
+	}
+	.photobox{
+		width:auto;
+		float:none;
+	}
+	.info{
+		width:auto;
+		float:none;
+	}
+	.form{
+		max-width:80%;
+		height:auto;
+		float:none;
+	}
+}

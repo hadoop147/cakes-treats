@@ -1,0 +1,88 @@
+<!--Cakes & Treats website for NCI website module.
+    Designed & coded by Rory Cleary, Kasia Casserly & Geneci Da Cruz.
+    29/09/19-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+
+	<head>
+		
+		<meta charset="UTF-8">
+		
+		<title>Contact</title>
+		<link rel="stylesheet" href="redesign.css">
+		
+		<script src="https://kit.fontawesome.com/ee9062f579.js" crossorigin="anonymous"></script>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script src="scriptContact.js"></script>
+		
+	</head>
+
+	<body onload="aFunction()"><!--JavaScript code to display message when page loads-->
+				
+		<div class="pagewrap">
+
+			<div class="top">
+				<a href="index.html"><img src="images/logo.jpg" alt="logo" id="logo" /></a>
+			</div>
+				
+			<div class="info">
+			
+				<h2>You can order a product or ask us a question here!</h2>
+			
+				<h4>We will get back in touch with you ASAP.</h4>
+					
+				<h4>Gift Vouchers are available upon request.</h4>
+			</div>
+				
+			<div class="form">	
+					<form method="post" action="mailto:hadoop147@icloud.com" onsubmit="bFunction()"><!--onsubmit JavaScript code to show user that their message has been submitted--> 
+		
+						<label>First name:</label><br/>
+						<input type="text" name="fname" required /><br/>
+			
+						<label>Last name:</label><br/>
+						<input type="text" name="lname" required /><br/>
+			 
+						<label>Email:</label><br/>
+						<input type="email" name="email" required /><br/>
+		
+						<label>Phone No:</label><br/>
+						<input type="tel" name="phone" pattern="[0-9]{3}[0-9]{7}" required /><br/>
+			
+						<label>Orders or questions?</label><br/>
+						<textarea rows="20" cols="60" required></textarea><br/>
+						
+						<input type="reset" />
+						<input type="submit" value="Submit" />
+						
+				</form><br/>	
+			</div>
+			
+			<div class="nav">
+				<ul>
+					<li><a href="index.html"><i class="fas fa-home"></i></a></li><!--font-awesome icon-->
+					<!--<li><a href="index.html">Home</a></li>-->
+					<li><a href="about.html">About</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer">&copy; GRK Design
+				<div class="instagram">
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
