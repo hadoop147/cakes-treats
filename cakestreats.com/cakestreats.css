@@ -204,15 +204,15 @@ input[type=submit]{
 	text-decoration:none;	
 }
 
-#tc{
+.terms{
+	width:1500px;
 	background-color:white;
 	color:gray;
-	border:none;
-	margin:15px 2px;
-	padding:10px 20px;
-	border-radius:10px;
 	font-family:"Comic Sans MS", cursive, sans-serif;
+	text-align:center;
+	border-bottom:2px solid #ffe6e9;
 }
+
 #buttonTC{
 	background-color:#ffe6e9;
 	cursor:pointer;
@@ -229,6 +229,10 @@ input[type=submit]{
 @media screen and (max-width: 900px){
 	body{
 		background-color:#;
+	}
+	.terms{
+		width:auto;
+		float:none;
 	}
 	.pagewrap{
 		width:auto;
@@ -276,6 +280,10 @@ input[type=submit]{
 	body{
 		background-color:#;
 	}
+	.terms{
+		width:auto;
+		float:none;
+	}
 	.pagewrap{
 		width:auto;
 		float:none;
@@ -321,6 +329,10 @@ input[type=submit]{
 @media screen and (max-width: 500px){
 	body{
 		background-color:#;
+	}
+	.terms{
+		width:auto;
+		float:none;
 	}
 	.pagewrap{
 		width:auto;
