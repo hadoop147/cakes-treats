@@ -1,5 +1,4 @@
 				/*aFunction a displays an alert message when page loads and bFunction informs the user that their message has benn submitted*/
-				
 				function aFunction(){
 					alert("Please enter your details in the form.");
 				}
@@ -13,8 +12,13 @@
 					var d = new Date();
 					document.getElementById("time").innerHTML = d.toLocaleTimeString();
 				}
-				//confirmation box for website t&c's
-				function tcFunction(){
+				//Confirmation box for website t&c's
+				/*function tcFunction(){
 					confirm("By using our website, you are agreeing to our T&C's.\nDo you agree?");
+				}*/
+				
+				//Confirmation box for website t&c's. Either use this one or the one above,
+				function tcFunction(){
+					confirm("Do you agree?");
 				}
 				

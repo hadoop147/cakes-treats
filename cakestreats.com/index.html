@@ -12,20 +12,22 @@
 		
 		<title>Home</title>
 		
-		<link rel="stylesheet" href="redesign.css">
+		<link rel="stylesheet" href="cakestreats.css"><!--All styling on the website is executed by an external style sheet-->
 		
-		<script src="https://kit.fontawesome.com/ee9062f579.js"crossorigin="anonymous" ></script>
+		<script src="https://kit.fontawesome.com/ee9062f579.js"crossorigin="anonymous" ></script><!--code to get icons onto the page-->
 		
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
-		<script src="scriptContact.js"></script>
+		<script src="scriptContact.js"></script><!--4 pieces of JavaScript are utilised on website. They are on the index and contact pages.-->
 		
 	</head>
 
-	<body onload="tcFunction()">
+	<body>
 	
+		<p id="tc">By using our website, you are agreeing to our T&C's.<button id="buttonTC" type="button" onclick="tcFunction()">Click here</button></p><!--a terms and conditions button and acceptance statement at top of page-->
+		
 		<div class="pagewrap">
 
 			<div class="top">
@@ -34,7 +36,7 @@
 			     
 			<div class="content">
 			
-			<div id="time"></div>
+			<div id="time"></div><!--displays the time on the top right of index page-->
 			
 				<p>Welcome to <h1 id="display"><i>Cakes & Treats by Daniella.</i></h1><br/>Our designs can cover all occasions from <strong><i>Birthdays</i></strong> to <strong><i>Weddings</i></strong> and everything in between.
 				Our aim is to make your special occasion one to remember.</p>
@@ -50,8 +52,7 @@
 			
 			<div class="nav">
 				<ul>
-					<li><a class="active" href="index.html"><i class="fas fa-home"></i></a></li><!--font-awesome icon-->
-					<!--<li><a href="index.html">Home</a></li>-->
+					<li><a class="active" href="index.html"><i class="fas fa-home"></i></a></li><!--font-awesome home icon-->
 					<li><a href="about.html">About</a></li>
 					<li><a href="products.html">Products</a></li>
 					<li><a href="contact.html">Contact</a></li>
