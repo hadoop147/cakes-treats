@@ -70,7 +70,7 @@ body{
 	text-decoration:none;
 	color:gray;
 	font-size:2em;
-	font-style:bold;
+	font-weight:bold;
 }
 	
 .nav li:last-child{		/*code used from w3schools.com for the hover buttons, to make each nav tab active and to remove last line from nav*/
@@ -228,7 +228,7 @@ input[type=submit]{
 
 @media screen and (max-width: 900px){
 	body{
-		background-color:#;
+		background-color:#ffe6e9;
 	}
 	.terms{
 		width:auto;
@@ -256,7 +256,7 @@ input[type=submit]{
 		float:none;
 	}
 	.photobox{
-		max-width:auto;
+		max-width:100%;
 		float:none;
 	}
 	.photoboxBlog{
@@ -278,7 +278,7 @@ input[type=submit]{
 
 @media screen and (max-width: 720px){
 	body{
-		background-color:#;
+		background-color:#ffe6e9;
 	}
 	.terms{
 		width:auto;
@@ -306,7 +306,7 @@ input[type=submit]{
 		float:none;
 	}
 	.photobox{
-		width:auto;
+		max-width:100%;
 		float:none;
 	}
 	.photoboxBlog{
@@ -328,7 +328,7 @@ input[type=submit]{
 
 @media screen and (max-width: 500px){
 	body{
-		background-color:#;
+		background-color:#ffe6e9;
 	}
 	.terms{
 		width:auto;
@@ -356,7 +356,7 @@ input[type=submit]{
 		float:none;
 	}
 	.photobox{
-		width:auto;
+		max-width:100%;
 		float:none;
 	}
 	.photoboxBlog{
